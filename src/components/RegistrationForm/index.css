@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.app-container {
+  font-family: 'Roboto';
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+  width: 400px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.main-heading {
+  font-size: 40px;
+  color: #ea580c;
+  margin-bottom: 60px;
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.label-element {
+  font-size: 13px;
+  color: #475569;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.input-element {
+  height: 30px;
+  width: 280px;
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.error-msg {
+  font-size: 17px;
+  color: #ff0b37;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  text-align: center;
+  color: #ffffff;
+  background-color: #ea580c;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+
+.submit-another-response-btn {
+  text-align: center;
+  color: #ffffff;
+  background-color: #ea580c;
+  height: 30px;
+  width: 200px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 15px;
+}
